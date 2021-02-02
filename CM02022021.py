@@ -41,6 +41,11 @@ if (tweet1.find("Emmanuel Macron")!=(-1)) or (tweet2.find("Emmanuel Macron")!=(-
 else:
     print("NON")
 
+if ("président" in tweet1) or ("Macron" in tweet1) or ("le chef de l'état" in tweet1) or ("le chef de l'armée" in tweet1):
+    print("le tweet1 parle du président")
+else:
+    print("le tweet1 ne parle pas du président")
+
 # Question 10: soit la chaine de caractère suivantes :
 descriptif = "Dans ce roman l'auteur américain nous décrit l'aventure de Huck Finn qui a traversé le Mississipi"
 # tester si ce descriptif contient le mot aventure, alors afficher le message suivant
